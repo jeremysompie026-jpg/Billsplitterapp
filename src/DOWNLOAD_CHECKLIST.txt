@@ -1,0 +1,120 @@
+╔════════════════════════════════════════════════════════════╗
+║           BILL SPLITTER - DOWNLOAD CHECKLIST               ║
+╚════════════════════════════════════════════════════════════╝
+
+📋 STEP-BY-STEP DOWNLOAD CHECKLIST
+
+PHASE 1: PREPARE YOUR COMPUTER
+□ Create folder "bill-splitter" on Desktop or Documents
+□ Install Node.js from nodejs.org (if not installed)
+
+PHASE 2: COPY ROOT FILES
+□ package.json          ✓ Already created
+□ index.html            ✓ Already created
+□ main.tsx              ✓ Already created
+□ vite.config.ts        ✓ Already created
+□ App.tsx               → Copy from Figma Make
+□ tsconfig.json         → Copy if exists
+
+PHASE 3: COPY COMPONENTS
+Create folder: components/
+□ BillSplitter.tsx      → Copy from /components/
+□ BillHistory.tsx       → Copy from /components/
+
+PHASE 4: COPY UI COMPONENTS
+Create folder: components/ui/
+□ button.tsx            → Copy from /components/ui/
+□ card.tsx              → Copy from /components/ui/
+□ input.tsx             → Copy from /components/ui/
+□ label.tsx             → Copy from /components/ui/
+□ separator.tsx         → Copy from /components/ui/
+□ badge.tsx             → Copy from /components/ui/
+□ switch.tsx            → Copy from /components/ui/
+□ checkbox.tsx          → Copy from /components/ui/
+□ select.tsx            → Copy from /components/ui/
+□ alert-dialog.tsx      → Copy from /components/ui/
+
+PHASE 5: COPY UTILS
+Create folder: utils/supabase/
+□ info.tsx              → Copy from /utils/supabase/
+
+PHASE 6: COPY SUPABASE SERVER FILES
+Create folder: supabase/functions/server/
+□ index.tsx             → Copy from /supabase/functions/server/
+□ kv_store.tsx          → Copy from /supabase/functions/server/
+□ kv_helpers.tsx        → Copy from /supabase/functions/server/
+
+PHASE 7: COPY STYLES
+Create folder: styles/
+□ globals.css           → Copy from /styles/
+
+PHASE 8: CREATE .env FILE
+□ Create new file: .env
+□ Copy content from .env.example
+□ Replace with your actual Supabase credentials:
+  - VITE_SUPABASE_URL (from /utils/supabase/info.tsx)
+  - VITE_SUPABASE_ANON_KEY (from /utils/supabase/info.tsx)
+
+PHASE 9: INSTALL & RUN
+□ Open Terminal/Command Prompt
+□ Navigate to folder: cd path/to/bill-splitter
+□ Run: npm install
+□ Wait for installation to complete
+□ Run: npm run dev
+□ Open browser to: http://localhost:5173
+
+PHASE 10: TEST
+□ App loads successfully
+□ Can add participants
+□ Can enter bill amount
+□ Can save bills
+□ Can view bill history
+□ Mobile view works (resize browser)
+
+═══════════════════════════════════════════════════════════
+
+TOTAL FILES TO COPY: ~24 files
+
+ESTIMATED TIME: 15-30 minutes
+
+TIPS:
+- Keep Figma Make open in one window
+- Use a text editor (VS Code, Notepad++, etc.) in another
+- Copy files one at a time to avoid mistakes
+- Maintain the exact folder structure
+- Don't forget the .env file!
+
+═══════════════════════════════════════════════════════════
+
+QUICK REFERENCE:
+
+Folder Structure:
+bill-splitter/
+├── components/
+│   ├── ui/          (10 files)
+│   ├── figma/       (1 file - optional)
+│   ├── BillSplitter.tsx
+│   └── BillHistory.tsx
+├── utils/
+│   └── supabase/
+│       └── info.tsx
+├── supabase/
+│   └── functions/
+│       └── server/  (3 files)
+├── styles/
+│   └── globals.css
+├── package.json     ✓
+├── index.html       ✓
+├── main.tsx         ✓
+├── vite.config.ts   ✓
+├── App.tsx
+└── .env             (create manually)
+
+═══════════════════════════════════════════════════════════
+
+NEED HELP?
+Read: DOWNLOAD_INSTRUCTIONS.md (detailed guide)
+Read: README.md (project overview)
+Read: DEPLOYMENT_GUIDE.md (how to deploy online)
+
+═══════════════════════════════════════════════════════════
